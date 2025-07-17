@@ -10,15 +10,18 @@ st.set_page_config(page_title="BTC Price Forecast", layout="wide")
 
 st.title("📈 Bitcoin Price Forecasting App using Prophet")
 
-# Load data
+import pandas as pd
+import os
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("btc.csv")
-    df['Date'] = pd.to_datetime(df['Date'])
-    df['Close'] = df['Close'].astype(str).str.replace(',', '').astype(float)
-    df = df[['Date', 'Close']]
-    df.columns = ['ds', 'y']
+    # Debug: Print current directory contents
+    print("Files in current directory:", os.listdir())
+    
+    # Load your CSV (updated name)
+    df = pd.read_csv("bitcoin_history.csv")
     return df
+
 
 df = load_data()
 
