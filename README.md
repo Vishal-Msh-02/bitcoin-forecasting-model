@@ -45,8 +45,13 @@ bash
 Copy
 Edit
 streamlit run app.py
+
 🖼 App Preview
 Screenshots of the app can go here (forecast graph, components plot, evaluation metrics display, etc.)
+<img width="1841" height="869" alt="image" src="https://github.com/user-attachments/assets/f5cb86b7-db95-4e72-9dd8-56a3f42e9190" />
+<img width="1838" height="854" alt="image" src="https://github.com/user-attachments/assets/6e90a26d-6857-4999-81b2-027df99ceb49" />
+
+
 
 📏 Model Evaluation
 The model is evaluated using the last 90 days of historical data.
