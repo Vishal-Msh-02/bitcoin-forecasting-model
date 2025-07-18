@@ -2,6 +2,8 @@
 
 A Streamlit web application that forecasts Bitcoin prices using Facebook's open-source Prophet time series forecasting model. The app allows you to explore historical Bitcoin data, view 90-day price forecasts, and analyze seasonal components like weekly and yearly trends.
 
+🔗 Live App: https://bitcoin-forecasting-model-znktupeujcbe8aepxpqrkb.streamlit.app/🚀
+
 🚀 Features
 📊 Visualizes historical Bitcoin prices
 
